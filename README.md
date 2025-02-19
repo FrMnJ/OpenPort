@@ -10,7 +10,7 @@ Implementación de sockets para realizar conexiones a los puertos objetivo.
 ## Requisitos
 - Compilador C++ compatible con C++20 o superior (g++ recomendado)
 - CMake (opcional, para facilitar la compilación)
-
+- Windows
 ## Uso 
 
 Para ejecutar el escáner de puertos, usa el siguiente comando:
