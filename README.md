@@ -15,7 +15,7 @@ Implementación de sockets para realizar conexiones a los puertos objetivo.
 
 Para ejecutar el escáner de puertos, usa el siguiente comando:
 ````shell
-./openport 192.168.1.1 20 1000
+./OpenPort 192.168.1.1 20 1000
 ````
 Esto escaneará los puertos del 20 al 1000 en la IP 192.168.1.1.
 
