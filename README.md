@@ -32,3 +32,12 @@ Proceso creado para IP: 192.168.1.2 de 1000 hasta 20000 (PID: 39200)
 [+] Puerto 7680 abierto.
 [-] Escaneo a 192.168.1.2 completado.
 ````
+⚠️ **ADVERTENCIA: USO RESPONSABLE** ⚠️
+
+Este software está diseñado únicamente para **fines educativos y pruebas de seguridad en redes bajo autorización explícita**.  
+El uso indebido de herramientas de escaneo de puertos en sistemas sin permiso puede ser **ilegal**.
+
+**No utilices esta herramienta en redes o servidores ajenos sin autorización.**  
+El autor no se hace responsable del mal uso que se le pueda dar a este software.
+
+✔️ **Recomendación:** Prueba esta herramienta en entornos controlados o en tu propia red local.
