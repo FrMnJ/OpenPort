@@ -55,6 +55,24 @@ build CMakeFiles/OpenPort.dir/main.cpp.obj: CXX_COMPILER__OpenPort_unscanned_Deb
   OBJECT_DIR = CMakeFiles\OpenPort.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenPort.dir
 
+build CMakeFiles/OpenPort.dir/target_ipv4.cpp.obj: CXX_COMPILER__OpenPort_unscanned_Debug C$:/Users/USER/CLionProjects/OpenPort/target_ipv4.cpp || cmake_object_order_depends_target_OpenPort
+  DEP_FILE = CMakeFiles\OpenPort.dir\target_ipv4.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OpenPort.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenPort.dir
+
+build CMakeFiles/OpenPort.dir/program_options.cpp.obj: CXX_COMPILER__OpenPort_unscanned_Debug C$:/Users/USER/CLionProjects/OpenPort/program_options.cpp || cmake_object_order_depends_target_OpenPort
+  DEP_FILE = CMakeFiles\OpenPort.dir\program_options.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OpenPort.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenPort.dir
+
+build CMakeFiles/OpenPort.dir/scan_tcp.cpp.obj: CXX_COMPILER__OpenPort_unscanned_Debug C$:/Users/USER/CLionProjects/OpenPort/scan_tcp.cpp || cmake_object_order_depends_target_OpenPort
+  DEP_FILE = CMakeFiles\OpenPort.dir\scan_tcp.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OpenPort.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenPort.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OpenPort
@@ -63,7 +81,7 @@ build CMakeFiles/OpenPort.dir/main.cpp.obj: CXX_COMPILER__OpenPort_unscanned_Deb
 #############################################
 # Link the executable OpenPort.exe
 
-build OpenPort.exe: CXX_EXECUTABLE_LINKER__OpenPort_Debug CMakeFiles/OpenPort.dir/main.cpp.obj
+build OpenPort.exe: CXX_EXECUTABLE_LINKER__OpenPort_Debug CMakeFiles/OpenPort.dir/main.cpp.obj CMakeFiles/OpenPort.dir/target_ipv4.cpp.obj CMakeFiles/OpenPort.dir/program_options.cpp.obj CMakeFiles/OpenPort.dir/scan_tcp.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OpenPort.dir
