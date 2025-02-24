@@ -41,3 +41,5 @@ El uso indebido de herramientas de escaneo de puertos en sistemas sin permiso pu
 El autor no se hace responsable del mal uso que se le pueda dar a este software.
 
 ✔️ **Recomendación:** Prueba esta herramienta en entornos controlados o en tu propia red local.
+### Capturas de pantalla 
+![image](https://github.com/user-attachments/assets/c13b7ccb-33ab-41e4-8da4-58e479ae9115)
